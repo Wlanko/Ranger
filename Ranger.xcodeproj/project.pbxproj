@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB9037872B9EE0F60086E525 /* RangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9037862B9EE0F60086E525 /* RangerApp.swift */; };
+		BB9037892B9EE0F60086E525 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9037882B9EE0F60086E525 /* ContentView.swift */; };
+		BB90378B2B9EE0F80086E525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB90378A2B9EE0F80086E525 /* Assets.xcassets */; };
+		BB90378E2B9EE0F80086E525 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB90378D2B9EE0F80086E525 /* Preview Assets.xcassets */; };
+		BB9037982B9EE0F80086E525 /* RangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9037972B9EE0F80086E525 /* RangerTests.swift */; };
+		BB9037A22B9EE0F80086E525 /* RangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9037A12B9EE0F80086E525 /* RangerUITests.swift */; };
+		BB9037A42B9EE0F80086E525 /* RangerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9037A32B9EE0F80086E525 /* RangerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB9037942B9EE0F80086E525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB90377B2B9EE0F60086E525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9037822B9EE0F60086E525;
+			remoteInfo = Ranger;
+		};
+		BB90379E2B9EE0F80086E525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB90377B2B9EE0F60086E525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9037822B9EE0F60086E525;
+			remoteInfo = Ranger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB9037832B9EE0F60086E525 /* Ranger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ranger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9037862B9EE0F60086E525 /* RangerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangerApp.swift; sourceTree = "<group>"; };
+		BB9037882B9EE0F60086E525 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB90378A2B9EE0F80086E525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB90378D2B9EE0F80086E525 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB9037932B9EE0F80086E525 /* RangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9037972B9EE0F80086E525 /* RangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangerTests.swift; sourceTree = "<group>"; };
+		BB90379D2B9EE0F80086E525 /* RangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9037A12B9EE0F80086E525 /* RangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangerUITests.swift; sourceTree = "<group>"; };
+		BB9037A32B9EE0F80086E525 /* RangerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB9037802B9EE0F60086E525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9037902B9EE0F80086E525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB90379A2B9EE0F80086E525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB90377A2B9EE0F60086E525 = {
+			isa = PBXGroup;
+			children = (
+				BB9037852B9EE0F60086E525 /* Ranger */,
+				BB9037962B9EE0F80086E525 /* RangerTests */,
+				BB9037A02B9EE0F80086E525 /* RangerUITests */,
+				BB9037842B9EE0F60086E525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB9037842B9EE0F60086E525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB9037832B9EE0F60086E525 /* Ranger.app */,
+				BB9037932B9EE0F80086E525 /* RangerTests.xctest */,
+				BB90379D2B9EE0F80086E525 /* RangerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB9037852B9EE0F60086E525 /* Ranger */ = {
+			isa = PBXGroup;
+			children = (
+				BB9037862B9EE0F60086E525 /* RangerApp.swift */,
+				BB9037882B9EE0F60086E525 /* ContentView.swift */,
+				BB90378A2B9EE0F80086E525 /* Assets.xcassets */,
+				BB90378C2B9EE0F80086E525 /* Preview Content */,
+			);
+			path = Ranger;
+			sourceTree = "<group>";
+		};
+		BB90378C2B9EE0F80086E525 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB90378D2B9EE0F80086E525 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB9037962B9EE0F80086E525 /* RangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9037972B9EE0F80086E525 /* RangerTests.swift */,
+			);
+			path = RangerTests;
+			sourceTree = "<group>";
+		};
+		BB9037A02B9EE0F80086E525 /* RangerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9037A12B9EE0F80086E525 /* RangerUITests.swift */,
+				BB9037A32B9EE0F80086E525 /* RangerUITestsLaunchTests.swift */,
+			);
+			path = RangerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB9037822B9EE0F60086E525 /* Ranger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9037A72B9EE0F80086E525 /* Build configuration list for PBXNativeTarget "Ranger" */;
+			buildPhases = (
+				BB90377F2B9EE0F60086E525 /* Sources */,
+				BB9037802B9EE0F60086E525 /* Frameworks */,
+				BB9037812B9EE0F60086E525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ranger;
+			productName = Ranger;
+			productReference = BB9037832B9EE0F60086E525 /* Ranger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB9037922B9EE0F80086E525 /* RangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9037AA2B9EE0F80086E525 /* Build configuration list for PBXNativeTarget "RangerTests" */;
+			buildPhases = (
+				BB90378F2B9EE0F80086E525 /* Sources */,
+				BB9037902B9EE0F80086E525 /* Frameworks */,
+				BB9037912B9EE0F80086E525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9037952B9EE0F80086E525 /* PBXTargetDependency */,
+			);
+			name = RangerTests;
+			productName = RangerTests;
+			productReference = BB9037932B9EE0F80086E525 /* RangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB90379C2B9EE0F80086E525 /* RangerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9037AD2B9EE0F80086E525 /* Build configuration list for PBXNativeTarget "RangerUITests" */;
+			buildPhases = (
+				BB9037992B9EE0F80086E525 /* Sources */,
+				BB90379A2B9EE0F80086E525 /* Frameworks */,
+				BB90379B2B9EE0F80086E525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB90379F2B9EE0F80086E525 /* PBXTargetDependency */,
+			);
+			name = RangerUITests;
+			productName = RangerUITests;
+			productReference = BB90379D2B9EE0F80086E525 /* RangerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB90377B2B9EE0F60086E525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					BB9037822B9EE0F60086E525 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					BB9037922B9EE0F80086E525 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = BB9037822B9EE0F60086E525;
+					};
+					BB90379C2B9EE0F80086E525 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = BB9037822B9EE0F60086E525;
+					};
+				};
+			};
+			buildConfigurationList = BB90377E2B9EE0F60086E525 /* Build configuration list for PBXProject "Ranger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB90377A2B9EE0F60086E525;
+			productRefGroup = BB9037842B9EE0F60086E525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB9037822B9EE0F60086E525 /* Ranger */,
+				BB9037922B9EE0F80086E525 /* RangerTests */,
+				BB90379C2B9EE0F80086E525 /* RangerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB9037812B9EE0F60086E525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB90378E2B9EE0F80086E525 /* Preview Assets.xcassets in Resources */,
+				BB90378B2B9EE0F80086E525 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9037912B9EE0F80086E525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB90379B2B9EE0F80086E525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB90377F2B9EE0F60086E525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9037892B9EE0F60086E525 /* ContentView.swift in Sources */,
+				BB9037872B9EE0F60086E525 /* RangerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB90378F2B9EE0F80086E525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9037982B9EE0F80086E525 /* RangerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9037992B9EE0F80086E525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9037A22B9EE0F80086E525 /* RangerUITests.swift in Sources */,
+				BB9037A42B9EE0F80086E525 /* RangerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB9037952B9EE0F80086E525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9037822B9EE0F60086E525 /* Ranger */;
+			targetProxy = BB9037942B9EE0F80086E525 /* PBXContainerItemProxy */;
+		};
+		BB90379F2B9EE0F80086E525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9037822B9EE0F60086E525 /* Ranger */;
+			targetProxy = BB90379E2B9EE0F80086E525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB9037A52B9EE0F80086E525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB9037A62B9EE0F80086E525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB9037A82B9EE0F80086E525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ranger/Preview Content\"";
+				DEVELOPMENT_TEAM = 47J4D692KF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wlanko.Ranger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB9037A92B9EE0F80086E525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ranger/Preview Content\"";
+				DEVELOPMENT_TEAM = 47J4D692KF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wlanko.Ranger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB9037AB2B9EE0F80086E525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47J4D692KF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wlanko.RangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ranger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ranger";
+			};
+			name = Debug;
+		};
+		BB9037AC2B9EE0F80086E525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47J4D692KF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wlanko.RangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ranger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ranger";
+			};
+			name = Release;
+		};
+		BB9037AE2B9EE0F80086E525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47J4D692KF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wlanko.RangerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ranger;
+			};
+			name = Debug;
+		};
+		BB9037AF2B9EE0F80086E525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 47J4D692KF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wlanko.RangerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ranger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB90377E2B9EE0F60086E525 /* Build configuration list for PBXProject "Ranger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9037A52B9EE0F80086E525 /* Debug */,
+				BB9037A62B9EE0F80086E525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9037A72B9EE0F80086E525 /* Build configuration list for PBXNativeTarget "Ranger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9037A82B9EE0F80086E525 /* Debug */,
+				BB9037A92B9EE0F80086E525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9037AA2B9EE0F80086E525 /* Build configuration list for PBXNativeTarget "RangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9037AB2B9EE0F80086E525 /* Debug */,
+				BB9037AC2B9EE0F80086E525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9037AD2B9EE0F80086E525 /* Build configuration list for PBXNativeTarget "RangerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9037AE2B9EE0F80086E525 /* Debug */,
+				BB9037AF2B9EE0F80086E525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB90377B2B9EE0F60086E525 /* Project object */;
+}
